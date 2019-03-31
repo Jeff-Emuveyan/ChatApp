@@ -1,4 +1,4 @@
-package com.example.jeffemuveyan.Classes;
+package com.chatapp_source.jeffemuveyan.Classes;
 
 public class Message {
 

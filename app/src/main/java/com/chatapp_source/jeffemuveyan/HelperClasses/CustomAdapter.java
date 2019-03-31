@@ -1,4 +1,4 @@
-package com.example.jeffemuveyan.HelperClasses;
+package com.chatapp_source.jeffemuveyan.HelperClasses;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.example.jeffemuveyan.Classes.Message;
-import com.example.jeffemuveyan.chatapp.MainActivity;
-import com.example.jeffemuveyan.chatapp.R;
+import com.chatapp_source.jeffemuveyan.Classes.Message;
+import com.chatapp_source.jeffemuveyan.chatapp.MainActivity;
+import com.chatapp_source.jeffemuveyan.chatapp.R;
 import com.kinda.postui.PostMessageView;
 
 import java.util.ArrayList;

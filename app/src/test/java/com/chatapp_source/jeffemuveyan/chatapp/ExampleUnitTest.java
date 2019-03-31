@@ -1,4 +1,4 @@
-package com.example.jeffemuveyan.chatapp;
+package com.chatapp_source.jeffemuveyan.chatapp;
 
 import org.junit.Test;
 

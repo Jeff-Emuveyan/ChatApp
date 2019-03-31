@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jeffemuveyan.chatapp">
+    package="com.chatapp_source.jeffemuveyan.chatapp">
 
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".WelcomeActivity">
+        <activity android:name="com.chatapp_source.jeffemuveyan.chatapp.WelcomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
 
         <service android:name="org.eclipse.paho.android.service.MqttService"></service>
 
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name="com.chatapp_source.jeffemuveyan.chatapp.MainActivity"></activity>
     </application>
 
 </manifest>
